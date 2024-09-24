@@ -1,7 +1,21 @@
 {
-  "name": "components-lib-test",
+  "name": "@loadedgg/components-lib-test",
   "type": "module",
   "version": "0.0.1",
+  "description": "This template should help get you started developing with Vue 3 in Vite.",
+  "author": "",
+  "license": "",
+  "homepage": "https://github.com/loadedgg/components-lib-test#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loadedgg/components-lib-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/loadedgg/components-lib-test/issues"
+  },
+  "keywords": [
+    "test"
+  ],
   "exports": {
     ".": {
       "import": "./dist/components-lib-test.js",
