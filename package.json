@@ -1,7 +1,7 @@
 {
   "name": "@loadedgg/components-lib-test",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This template should help get you started developing with Vue 3 in Vite.",
   "author": "",
   "license": "",
@@ -21,7 +21,7 @@
       "import": "./dist/components-lib-test.js",
       "require": "./dist/components-lib-test.umd.cjs"
     },
-    "./style": "./dist/style.scss"
+    "./style": "./dist/main.scss"
   },
   "main": "./dist/components-lib-test.umd.cjs",
   "module": "./dist/components-lib-test.js",
