@@ -17,6 +17,9 @@ importers:
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
+      dist:
+        specifier: link:/Users/marvin/Root/Projects/Graveyard/components-lib-test/dist
+        version: link:dist
       lucide-vue-next:
         specifier: ^0.395.0
         version: 0.395.0(vue@3.4.27(typescript@5.4.5))

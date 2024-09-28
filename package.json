@@ -18,22 +18,22 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/components-lib-test.js",
-      "require": "./dist/components-lib-test.umd.cjs"
-    },
-    "./style": "./dist/main.scss"
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    }
   },
-  "main": "./dist/components-lib-test.umd.cjs",
-  "module": "./dist/components-lib-test.js",
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
     "dev": "vite",
-    "build": "run-p type-check \"build-only {@}\" --",
+    "build": "vite build",
+    "build-check": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "test:unit": "vitest",
-    "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
@@ -45,6 +45,7 @@
     "@vueuse/core": "^10.11.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "dist": "link:/Users/marvin/Root/Projects/Graveyard/components-lib-test/dist",
     "lucide-vue-next": "^0.395.0",
     "radix-vue": "^1.8.3",
     "tailwind-merge": "^2.3.0",

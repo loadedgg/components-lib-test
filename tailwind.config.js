@@ -36,6 +36,9 @@ module.exports = {
         xl: 'calc(var(--radius) + 4px)',
       },
       colors: {
+        a: {
+          purple: '#f1f200',
+        },
         accent: {
           DEFAULT: 'hsl(var(--accent))',
           foreground: 'hsl(var(--accent-foreground))',
